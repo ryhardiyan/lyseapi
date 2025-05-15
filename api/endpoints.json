@@ -1,0 +1,434 @@
+{
+  "openai": [
+    {
+      "name": "Deepseek",
+      "desc": "Deepseek ai",
+      "status": "Active",
+      "path": "/ai/deepseek?text="
+    },
+    {
+      "name": "Openai",
+      "desc": "Openai chat",
+      "status": "Active",
+      "path": "/ai/openai?text="
+    }, 
+    {
+      "name": "Gemini",
+      "desc": "Gemini ai chat",
+      "status": "Active",
+      "path": "/ai/gemini?text="
+    }
+  ],
+  "orderkuota": [
+    {
+      "name": "Create Payment",
+      "desc": "Create qris payment",
+      "status": "Active",
+      "path": "/orderkuota/createpayment?amount=&codeqr="
+    },
+    {
+      "name": "Cek Status",
+      "desc": "Cek status payment",
+      "status": "Active",
+      "path": "/orderkuota/cekstatus?merchant=&keyorkut="
+    },
+    {
+      "name": "Cek Saldo",
+      "desc": "To check the balance of the quota order account",
+      "status": "Active",
+      "path": "/tools/ceksaldo?memberID=&pin=&password="
+    }
+  ],
+  "downloader": [
+    {
+      "name": "Tiktok",
+      "desc": "Downloader tiktok",
+      "status": "Active",
+      "path": "/download/tiktok?url="
+    },
+    {
+      "name": "Tiktok V2",
+      "desc": "Downloader tiktok v2",
+      "status": "Active",
+      "path": "/download/tiktok-v2?url="
+    },
+    {
+      "name": "Capcut",
+      "desc": "Downloader capcut",
+      "status": "Active",
+      "path": "/download/capcut?url="
+    },
+    {
+      "name": "Spotify",
+      "desc": "Downloader spotify",
+      "status": "Active",
+      "path": "/download/spotify?url="
+    },
+    {
+      "name": "XNXX",
+      "desc": "Downloader xnxx",
+      "status": "Active",
+      "path": "/download/xnxx?url="
+    },
+    {
+      "name": "Instagram",
+      "desc": "Downloader instagram",
+      "status": "Active",
+      "path": "/download/instagram?url="
+    },
+    {
+      "name": "Facebook",
+      "desc": "Downloader facebook",
+      "status": "Active",
+      "path": "/download/facebook?url="
+    },
+    {
+      "name": "Videy",
+      "desc": "Downloader videy",
+      "status": "Active",
+      "path": "/download/videy?url="
+    },
+    {
+      "name": "Ytmp4",
+      "desc": "Downloader Youtube mp4",
+      "status": "Active",
+      "path": "/download/ytmp4?url="
+    },
+    {
+      "name": "Ytmp3",
+      "desc": "Downloader Youtube mp3",
+      "status": "Active",
+      "path": "/download/ytmp3?url="
+    },    
+    {
+      "name": "Snackvideo",
+      "desc": "Downloader snackvideo",
+      "status": "Active",
+      "path": "/download/snackvideo?url="
+    },
+    {
+      "name": "Bstation",
+      "desc": "Downloader bstation video",
+      "status": "Active",
+      "path": "/download/bstation?url="
+    },    
+    {
+      "name": "Soundcloud",
+      "desc": "Downloader soundcloud song",
+      "status": "Active",
+      "path": "/download/soundcloud?url="
+    },        
+    {
+      "name": "Gitclone",
+      "desc": "Downloader gitclone",
+      "status": "Active",
+      "path": "/download/github?url="
+    },
+    {
+      "name": "Likee",
+      "desc": "Downloader likee video",
+      "status": "Active",
+      "path": "/download/likee?url="
+    },    
+    {
+      "name": "Twitter",
+      "desc": "Downloader twitter",
+      "status": "Active",
+      "path": "/download/twitter?url="
+    },    
+    {
+      "name": "Mediafire",
+      "desc": "Downloader mediafire",
+      "status": "Active",
+      "path": "/download/mediafire?url="
+    }
+  ],
+  "random": [
+    {
+      "name": "Blue Archive",
+      "desc": "Random foto blue archive",
+      "status": "Active",
+      "path": "/random/ba?apikey="
+    },
+    {
+      "name": "Random Waifu",
+      "desc": "Random foto waifu",
+      "status": "Active",
+      "path": "/random/waifu?apikey="
+    },
+    {
+      "name": "Random Nsfw",
+      "desc": "Random foto nsfw",
+      "status": "Active",
+      "path": "/random/nsfw?apikey="
+    },
+    {
+      "name": "Cek Nomor",
+      "desc": "Lacak Lokasi Dan Provider",
+      "status": "Active",
+      "path": "/random/cek-nomor?nomor="
+    }
+  ],
+  "search": [
+    {
+      "name": "Youtube Search",
+      "desc": "Search youtube video",
+      "status": "Active",
+      "path": "/search/youtube?q="
+    },
+    {
+      "name": "Tiktok Search",
+      "desc": "Search tiktok video",
+      "status": "Active",
+      "path": "/search/tiktok?q="
+    },
+    {
+      "name": "Npm Search",
+      "desc": "Search npm nodejs",
+      "status": "Active",
+      "path": "/search/npm?q="
+    },
+    {
+      "name": "Bingimage",
+      "desc": "Search bingimage foto",
+      "status": "Active",
+      "path": "/search/bingimage?q="
+    },    
+    {
+      "name": "Bstation Search",
+      "desc": "Bstation video search",
+      "status": "Active",
+      "path": "/search/bstation-search?q="
+    },    
+    {
+      "name": "Pinterest",
+      "desc": "Search pinterest foto",
+      "status": "Active",
+      "path": "/search/pinterest?q="
+    },
+    {
+      "name": "Gimage",
+      "desc": "Search google image",
+      "status": "Active",
+      "path": "/search/gimage?q="
+    },    
+    {
+      "name": "Spotify Search",
+      "desc": "Search spotify music",
+      "status": "Active",
+      "path": "/search/spotify?q="
+    },    
+    {
+      "name": "Playstore",
+      "desc": "Search playstore apk",
+      "status": "Active",
+      "path": "/search/playstore?q="
+    },
+    {
+      "name": "Happymod",
+      "desc": "Search happymod apk",
+      "status": "Active",
+      "path": "/search/happymod?q="
+    },
+    {
+      "name": "XNXX Search",
+      "desc": "Search xnxx video",
+      "status": "Active",
+      "path": "/search/xnxx?q="
+    }
+  ],
+  "tools": [
+    {
+      "name": "Text-to-speech",
+      "desc": "Tts anime character",
+      "status": "Active",
+      "path": "/tools/text-to-speech?text="
+    },
+    {
+      "name": "Screenshot Web",
+      "desc": "Screenshot web url",
+      "status": "Active",
+      "path": "/tools/ssweb?url="
+    },
+    {
+      "name": "Emoji To Gif",
+      "desc": "Convert emoji to gif",
+      "status": "Active",
+      "path": "/tools/emojitogif?emoji="
+    },
+    {
+      "name": "IP Lookup",
+      "desc": "Lookup domain of ip address",
+      "status": "Active",
+      "path": "/tools/iplookup?q="
+    },    
+    {
+      "name": "Whois",
+      "desc": "Get dns record information",
+      "status": "Active",
+      "path": "/tools/whois?dns="
+    },        
+    {
+      "name": "Shorturl tinyurl",
+      "desc": "Shortner url tinyurl.com",
+      "status": "Active",
+      "path": "/tools/tinyurl?url="
+    },            
+    {
+      "name": "Whoip",
+      "desc": "Get ip address information",
+      "status": "Active",
+      "path": "/tools/whoip?ip="
+    },            
+    {
+      "name": "Emoji Mix",
+      "desc": "Emoji mix converter",
+      "status": "Active",
+      "path": "/tools/emojimix?emoji1=&emoji2="
+    },
+    {
+      "name": "Cek Gempa",
+      "desc": "Displaying the latest earthquake information",
+      "status": "Active",
+      "path": "/tools/cekgempa?apikey="
+    },
+    {
+      "name": "Cek Cuaca",
+      "desc": "Check weather information for a city",
+      "status": "Active",
+      "path": "/tools/cekcuaca?kota="
+    },
+    {
+      "name": "Cek Kode Pos",
+      "desc": "Chek Postal code in your city",
+      "status": "Active",
+      "path": "/tools/cekkodepos?q="
+    },
+    {
+      "name": "Jadwal sholat",
+      "desc": "Chek prayer times in your area!",
+      "status": "Active",
+      "path": "/tools/jadwalsholat?kota="
+    },
+    {
+      "name": "Convert Uang",
+      "desc": "Convert money to other currencies!",
+      "status": "Active",
+      "path": "/tools/convert-uang?from=&to=&amount="
+    }
+  ],
+  "stalker": [
+    {
+      "name": "Instagram Stalk",
+      "desc": "Stalk instagram account",
+      "status": "Active",
+      "path": "/stalk/instagram?username="
+    },
+    {
+      "name": "Telegram Stalk",
+      "desc": "Stalk telegram account",
+      "status": "Active",
+      "path": "/stalk/telegram?username="
+    },    
+    {
+      "name": "Youtube Stalk",
+      "desc": "Stalk youtube account",
+      "status": "Active",
+      "path": "/stalk/youtube?username="
+    },        
+    {
+      "name": "Tiktok Stalk",
+      "desc": "Stalk tiktok account",
+      "status": "Active",
+      "path": "/stalk/tiktok?username="
+    },
+    {
+      "name": "Github Stalk",
+      "desc": "Stalk github account",
+      "status": "Active",
+      "path": "/stalk/github?username="
+    },    
+    {
+      "name": "Npm Stalk",
+      "desc": "Stalk npm package",
+      "status": "Active",
+      "path": "/stalk/npm?name="
+    },
+    {
+      "name": "FF Stalk",
+      "desc": "Stalk free fire account",
+      "status": "Active",
+      "path": "/stalk/ff?id="
+    }
+  ],
+  "creator": [
+    {
+      "name": "Remini",
+      "desc": "Remini image",
+      "status": "Active",
+      "path": "/imagecreator/remini?url="
+    },
+    {
+      "name": "Removebg",
+      "desc": "Remove background image",
+      "status": "Active",
+      "path": "/imagecreator/removebg?url="
+    },
+    {
+      "name": "Upscale",
+      "desc": "Upscale image",
+      "status": "Active",
+      "path": "/imagecreator/upscale?url="
+    },
+    {
+      "name": "Colorize",
+      "desc": "Colorize image",
+      "status": "Active",
+      "path": "/imagecreator/colorize?url="
+    },
+    {
+      "name": "Brat",
+      "desc": "Brat text generator",
+      "status": "Active",
+      "path": "/imagecreator/brat?text="
+    }, 
+    {
+      "name": "Brat Video",
+      "desc": "Brat animated text generator",
+      "status": "Active",
+      "path": "/imagecreator/bratvideo?text="
+    },
+    {
+      "name": "Nulis Buku",
+      "desc": "To write text in a book",
+      "status": "Active",
+      "path": "/imagecreator/nulis?text=&name=&class="
+    },
+    {
+      "name": "To Hijab",
+      "desc": "Make a photo wearing a hijab",
+      "status": "Active",
+      "path": "/imagecreator/to-hijab?imageUrl="
+    },
+    {
+      "name": "Text To Ghibli",
+      "desc": "Generete Ghibli with text",
+      "status": "Active",
+      "path": "/imagecreator/text2ghibli?text="
+    },
+    {
+      "name": "Text To Anime",
+      "desc": "Generete Anime with text",
+      "status": "Active",
+      "path": "/imagecreator/text2anime?text=&ratio="
+    }
+  ],
+  "api": [
+    {
+      "name": "Status Api",
+      "desc": "",
+      "status": "Active",
+      "path": "/api/status"
+    }
+  ]
+}

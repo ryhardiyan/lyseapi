@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link id="icon" rel="icon" href="" type="image/png">  
+  <title id="page"></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loading-spinner-large"></div>
+    <div class="loading-text">Loading ...</div>
+  </div>
+
+  <div class="container">
+    <section class="hero fade-in">
+      <div class="title-container">
+        <h2 id="apiTitle"></h2>
+      </div>
+      <p>Simple API with easy and minimalistic integration for WhatsApp Bot Developers.</p>
+      <section id="apiLinks">
+        <a id="information" href="#" title="Information">Information API</a>
+        <a id="contactdev" href="#" title="Contact Dev">Contact Dev</a>
+      </section>
+    </section>
+
+    <section class="content">
+      <div class="search-container" style="margin-bottom: 1rem;">
+        <input type="text" id="searchInput" placeholder="Search API..." style="width: 100%; padding: 0.5rem; font-size: 1rem; border-radius: 5px; border: 1px solid #ccc;">
+      </div>
+      <div class="tabs" id="tabs"></div>
+      <div id="api-list" class="api-list"></div>
+    </section>
+  </div>
+
+  <!-- Modal for API Response -->
+  <div class="modal" id="apiResponseModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <h5></h5>
+          <span></span>
+        </div>
+        <button id="btn-close" class="btn-close">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="copy-section">
+          <span id="copyEndpointText"></span>
+          <button class="copy-button">
+            <i class="far fa-copy"></i>
+          </button>
+        </div>
+        <form id="paramForm" style="margin-bottom: 0.5rem"></form>
+        <button id="submitParamBtn" type="button">Submit Request</button>
+        <div id="apiResponseLoading" class="loading-spinner" style="display: none;"></div>
+        <div id="apiResponseContent" class="d-none"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="kita">
+  <a href="/" title="Home">
+    <button><i class="fas fa-home"></i></button>
+  </a>
+  <a href="admin.html" title="Settings">
+    <button><i class="fas fa-cog"></i></button>
+  </a>
+  </div>
+  
+  <footer class="footer">
+    <div id="credits"></div>
+    <div class="contact">
+      <a id="githubLink" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a id="whatsappLink" target="_blank" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+  </footer>
+<script src="javascript/script.js"></script>
+</body>
+</html>
