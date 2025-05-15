@@ -1,4 +1,4 @@
-  // API real-time status
+(async () => {
   fetch('/api/status')
     .then(res => res.json())
     .then(data => {
@@ -41,3 +41,4 @@
   }
   setInterval(updateTime, 1000);
   updateTime();
+  })()
